@@ -50,6 +50,7 @@ Deploying applications in MS Azure AKS using Ingress <br/><br/>
   $ http://<<-ingress-controller-external-ip->>/birds <br/>
 * Clean up resources <br/>
   $ kubectl get all <br/>
+  $ kubectl delete all --all <br/>
   $ kubectl delete ingress --all <br/>
   $ kubectl delete all --all -n ingress-basic <br/>
   $ kubectl delete namespace ingress-basic <br/>
