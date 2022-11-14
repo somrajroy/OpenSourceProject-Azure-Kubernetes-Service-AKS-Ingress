@@ -1,8 +1,9 @@
 # AzureAKSIngress
 Deploying applications in MS Azure AKS using Ingress <br/><br/>
 * Clone the repository and navigate to the folder lab-05 <br/>
-* Open powershell in administrator mode and login with below command : <br/>
+* Open powershell in administrator mode and login with below command. If you have multiple subscriptions then select the correct subcription by second command <br/>
   $ az login --use-device <br/>
+  $ az account set --subscription <<-subsctption name/id->> (optional if you have multiple subcriptions) <br/>
 * Create resource group "aksdemo". <br/>
   $ az group create --name aksdemo --location southeastasia <br/>
 * Create an AKS cluster with 2 nodes (if you want to attach ACR then add --attach-acr <acrName>) <br/>
