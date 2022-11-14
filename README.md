@@ -24,7 +24,7 @@ Deploying applications in MS Azure AKS using Ingress <br/><br/>
 * Verify NGINX controller installation <br/>
   $ kubectl get pods -n ingress-basic -l app.kubernetes.io/name=ingress-nginx --watch <br/>
 * Inspect the ingress controller Service <br/>
-  $ kubectl get svc nginx-ingress-ingress-nginx-controller -n ingress-basic <br/><br/>
+  $ kubectl get svc -n ingress-basic <br/><br/>
   
   #### Deploy the application (s)
 * Deploy the cats application (pod and ClusterIP service) <br/>
@@ -42,8 +42,8 @@ Deploying applications in MS Azure AKS using Ingress <br/><br/>
   $ kubectl get ingress <br/>
   <br/>
 #### Access the application <br/>
-* Get the ingress controller External IP <br/>
-  $ kubectl get svc ingress-nginx-controller -n ingress-basic <br/>
+* Get the ingress controller External IP (type LoadBalancer) <br/>
+  $ kubectl get svc -n ingress-basic <br/>
 * Browse to the cats, dogs and birds service <br/>
   $ http://<<-ingress-controller-external-ip->>/cats <br/>
   $ http://<<-ingress-controller-external-ip->>/dogs <br/>
