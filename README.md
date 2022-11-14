@@ -20,7 +20,7 @@ Deploying applications in MS Azure AKS using Ingress <br/><br/>
 * Add a NGINX ingress controller without customizing the defaults. <br/>
   $ helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx <br/>
   $ helm repo update <br/>
-  $ helm install nginx-ingress ingress-nginx/ingress-nginx --namespace ingress-basic --set controller.replicaCount=2 --set controller.nodeSelector."beta\.kubernetes\.io/os"=linux --set defaultBackend.nodeSelector."beta\.kubernetes\.io/os"=linux
+  $ helm install nginx-ingress ingress-nginx/ingress-nginx --create-namespace --namespace ingress-basic --set controller.replicaCount=2 --set controller.nodeSelector."beta\.kubernetes\.io/os"=linux --set defaultBackend.nodeSelector."beta\.kubernetes\.io/os"=linux <br/>
 * Verify NGINX controller installation <br/>
   $ kubectl get pods -n ingress-basic -l app.kubernetes.io/name=ingress-nginx --watch <br/>
 * Inspect the ingress controller Service <br/>
