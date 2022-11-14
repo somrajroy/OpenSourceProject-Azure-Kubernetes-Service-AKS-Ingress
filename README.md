@@ -1,5 +1,5 @@
 # AzureAKSIngress
-Deploying applications in MS Azure AKS using Ingress <br/><br/>
+Deploying applications in MS Azure AKS using Kubernetes Ingress <br/><br/>
 * Clone the repository and navigate to the folder lab-05 <br/>
 * Open powershell in administrator mode and login with below command. If you have multiple subscriptions then select the correct subcription by second command <br/>
   $ az login --use-device <br/>
