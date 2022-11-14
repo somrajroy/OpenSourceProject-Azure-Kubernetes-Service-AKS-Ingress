@@ -10,9 +10,9 @@ Deploying applications in MS Azure AKS using Ingress <br/><br/>
   $ az aks create --name aksdemo -g aksdemo --node-count 2 --generate-ssh-keys <br/>
 * Switch context. (To configure kubectl to connect to your Kubernetes cluster, use the az aks get-credentials command). <br/>
   $ az aks get-credentials -n aksdemo -g aksdemo <br/>
-* User below commands for contexts.<br/>
+* Refer below commands for verification of contexts.<br/>
   $ kubectl config view <br/>
-  $ kubectl config current-context (you should be in aksdemo context). <br/>
+  $ kubectl config current-context (output should be aksdemo). <br/>
   $ kubectl config get contexts <br/>
 * Check nodes and pods in your AKS cluster. <br/>
   $ kubectl get nodes -o wide <br/>
