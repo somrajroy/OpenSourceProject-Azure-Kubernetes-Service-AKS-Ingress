@@ -14,6 +14,7 @@
   $ kubectl config view <br/>
   $ kubectl config current-context (output should be aksdemo). <br/>
   $ kubectl config get contexts <br/>
+  $ kubectl config use-context <<-context name->> <br/>
 * Check nodes and pods in your AKS cluster. <br/>
   $ kubectl get nodes -o wide <br/>
   $ kubectl get pods <br/>
