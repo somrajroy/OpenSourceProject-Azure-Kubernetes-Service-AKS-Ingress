@@ -1,7 +1,8 @@
 # Azure Kubernetes Service(AKS) & Ingress <br/>
 <ins> Deploying applications in MS Azure AKS using Kubernetes Ingress </ins> <br/><br/>
-* Below is example where an Ingress sends all its traffic to one Service. In this demo we will use ingress to send traffic to 3 services - cats, dogs and birds:<br/>
+* Ingress is a Kubernetes API object that maps an application to a stable, externally addressable HTTP or HTTPS URL. Workflow/Architecture<br/>
   ![image](https://user-images.githubusercontent.com/92582005/202119583-b6b598ed-8d66-44b7-9ad0-cad0c3cefcf5.png) <br/>
+  ![image](https://user-images.githubusercontent.com/92582005/202120769-b7fcf839-36bd-43a6-969c-620373665128.png) <br/>
 ### Steps to be followed : <br/>  
 * Clone the repository and navigate to the folder lab-05 <br/>
 * Open powershell in administrator mode and login with below command. If you have multiple subscriptions then select the correct subcription by second command <br/>
