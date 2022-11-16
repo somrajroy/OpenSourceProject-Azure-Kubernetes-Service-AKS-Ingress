@@ -1,8 +1,13 @@
 # Azure Kubernetes Service(AKS) & Ingress <br/>
 <ins> Deploying applications in MS Azure AKS using Kubernetes Ingress </ins> <br/><br/>
-* Ingress is a Kubernetes API object that maps an application to a stable, externally addressable HTTP or HTTPS URL. Workflow/Architecture<br/>
+* Azure AKS Architecture : <br/>
+  A Kubernetes cluster is divided into two components: <br/>
+    * Control plane: provides the core Kubernetes services and orchestration of application workloads.<br/>
+    * Nodes: run your application workloads.<br/>
+  ![image](https://user-images.githubusercontent.com/92582005/202123073-39cee4cb-e91e-4945-98ae-a6706cffa5cc.png) <br/>
+* Ingress is a Kubernetes API object that maps an application to a stable, externally addressable HTTP or HTTPS URL. It can route traffic to multiple services<br/>
   ![image](https://user-images.githubusercontent.com/92582005/202119583-b6b598ed-8d66-44b7-9ad0-cad0c3cefcf5.png) <br/>
-  ![image](https://user-images.githubusercontent.com/92582005/202120769-b7fcf839-36bd-43a6-969c-620373665128.png) <br/>
+  
 ### Steps to be followed : <br/>  
 * Clone the repository and navigate to the folder lab-05 <br/>
 * Open powershell in administrator mode and login with below command. If you have multiple subscriptions then select the correct subcription by second command <br/>
@@ -73,6 +78,7 @@
 * [Create an ingress controller in Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/ingress-basic?tabs=azure-cli)<br/>
 * [Quickstart: Develop on Azure Kubernetes Service (AKS) with Helm](https://learn.microsoft.com/en-us/azure/aks/quickstart-helm?tabs=azure-cli)<br/>
 * [Install existing applications with Helm in Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/kubernetes-helm?source=recommendations)<br/>
+* [Kubernetes core concepts for Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/concepts-clusters-workloads) <br/>
   
 
   
