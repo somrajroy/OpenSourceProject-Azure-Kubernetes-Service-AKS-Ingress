@@ -1,5 +1,5 @@
 ## Azure Kubernetes Service(AKS) & Ingress <br/>
-<ins> Deploying applications in MS Azure AKS using Ingress </ins> ([with NGINX Ingress Controller](https://github.com/kubernetes/ingress-nginx)) <br/>
+<ins> Deploying applications in MS Azure AKS using Ingress </ins> ([NGINX Ingress Controller](https://github.com/kubernetes/ingress-nginx)) <br/>
 * Azure AKS Architecture : <br/>
   A Kubernetes cluster is divided into two components: <br/>
     * Control plane: provides the core Kubernetes services and orchestration of application workloads. This is managed by Azure<br/>
