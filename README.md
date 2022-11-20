@@ -27,7 +27,7 @@
 * Check nodes and pods in your AKS cluster. <br/>
   $ kubectl get nodes -o wide <br/>
   $ kubectl get pods <br/>
-* Add a NGINX ingress controller without customizing the defaults. The last command is deprecated & if 3rd command works then no need to execute last command <br/>
+* [Add a NGINX ingress controller](https://github.com/kubernetes/ingress-nginx) without customizing the defaults. The last command is deprecated & if 3rd command works then no need to execute last command <br/>
   $ helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx <br/>
   $ helm repo update <br/>
   $ helm install nginx-ingress ingress-nginx/ingress-nginx --create-namespace --namespace ingress-basic --set controller.replicaCount=2 --set controller.nodeSelector."kubernetes\.io/os"=linux --set defaultBackend.nodeSelector."kubernetes\.io/os"=linux <br/>
