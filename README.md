@@ -73,6 +73,7 @@
   <br/>
   
 ## Further References : <br/>
+* [Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/)<br/>
 * [Deploy an Azure Kubernetes Service (AKS) cluster](https://learn.microsoft.com/en-us/azure/aks/tutorial-kubernetes-deploy-cluster?tabs=azure-cli)<br/>
 * [Prepare an application for Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/tutorial-kubernetes-prepare-app?source=recommendations)<br/>
 * [Create an ingress controller in Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/ingress-basic?tabs=azure-cli)<br/>
