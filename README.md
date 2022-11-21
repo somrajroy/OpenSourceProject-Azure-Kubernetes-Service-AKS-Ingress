@@ -3,6 +3,7 @@
 * Microsoft Azure Kubernetes Service (AKS) is a fully managed container orchestration service. It reduces the complexity of container deployment and management and provides automation.<br/>
 * Azure automatically creates and configures a Kubernetes control plane for each cluster. In addition, MS handles all Kubernetes upgrades and new version updates within AKS.<br/>
 * Using AKS doesn’t attract cluster management and master node fees, unlike other platforms. Customer is charged for the network resources, worker nodes & other Azure resouces that are used.<br/>
+*  Infrastructure management is smooth; AKS elastically provisions resources, so customers/developers don’t need to worry about whether they’re being used effectively.<br/>
 * Azure AKS Architecture : <br/>
   A Kubernetes cluster is divided into two components: <br/>
     * Control plane: provides the core Kubernetes services and orchestration of application workloads. This is managed by Azure<br/>
