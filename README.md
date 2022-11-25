@@ -11,7 +11,8 @@
   ![image](https://user-images.githubusercontent.com/92582005/202123073-39cee4cb-e91e-4945-98ae-a6706cffa5cc.png) <br/>
 * Ingress is a Kubernetes API object that maps an application to a stable, externally addressable HTTP or HTTPS URL. It can route traffic to multiple services<br/>
   ![image](https://user-images.githubusercontent.com/92582005/202119583-b6b598ed-8d66-44b7-9ad0-cad0c3cefcf5.png) <br/>
-  
+* Ingress controllers work at layer 7 and can use more intelligent rules to distribute application traffic. Ingress controllers typically route HTTP/HTTPS traffic to different applications based on the inbound URL.<br/>
+    ![image](https://user-images.githubusercontent.com/92582005/203915170-8a64780b-2c6f-4a50-b91c-c6e04fcd1e05.png)<br/>
 ### Steps to be followed : <br/>  
 * Clone the repository and navigate to the folder lab-05 <br/>
 * Open powershell in administrator mode and login with below command. If you have multiple subscriptions then select the correct subcription by second command <br/>
@@ -86,6 +87,7 @@
 * [Kubernetes core concepts for Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/concepts-clusters-workloads) <br/>
 * [Application Gateway Ingress Controller for Azure Kubernetes Service](https://azure.microsoft.com/en-us/blog/application-gateway-ingress-controller-for-azure-kubernetes-service/)<br/>
 * [What is Application Gateway Ingress Controller?](https://learn.microsoft.com/en-us/azure/application-gateway/ingress-controller-overview)<br/>
+* [Is ingress-nginx really a load balancer or not?](https://learn.microsoft.com/en-us/answers/questions/295210/is-ingress-nginx-is-really-a-load-balancer-or-not.html)<br/>
   
 
   
