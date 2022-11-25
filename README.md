@@ -88,6 +88,7 @@
 * [Application Gateway Ingress Controller for Azure Kubernetes Service](https://azure.microsoft.com/en-us/blog/application-gateway-ingress-controller-for-azure-kubernetes-service/)<br/>
 * [What is Application Gateway Ingress Controller?](https://learn.microsoft.com/en-us/azure/application-gateway/ingress-controller-overview)<br/>
 * [Is ingress-nginx really a load balancer or not?](https://learn.microsoft.com/en-us/answers/questions/295210/is-ingress-nginx-is-really-a-load-balancer-or-not.html)<br/>
+* [Network concepts for applications in Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/concepts-network#ingress-controllers)<br/>
   
 
   
