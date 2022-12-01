@@ -80,8 +80,8 @@
 ## Further References : <br/>
 * [Kubernetes core concepts for Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/concepts-clusters-workloads) <br/>
 * [Optimize compute costs on Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/training/modules/aks-optimize-compute-costs/)<br/>
+* [Top 10 Cost Optimization Techniques for AKS Workloads running in Azure](https://www.linkedin.com/pulse/top-10-cost-optimization-techniques-aks-workloads-azure-upadhyaya)<br/>
 * [Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/)<br/>
-* [Deploy an Azure Kubernetes Service (AKS) cluster](https://learn.microsoft.com/en-us/azure/aks/tutorial-kubernetes-deploy-cluster?tabs=azure-cli)<br/>
 * [What is Application Gateway Ingress Controller?](https://learn.microsoft.com/en-us/azure/application-gateway/ingress-controller-overview)<br/>
 * [Is ingress-nginx really a load balancer or not?](https://learn.microsoft.com/en-us/answers/questions/295210/is-ingress-nginx-is-really-a-load-balancer-or-not.html)<br/>
 * [Network concepts for applications in Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/concepts-network#ingress-controllers)<br/>
