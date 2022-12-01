@@ -78,14 +78,10 @@
   <br/>
   
 ## Further References : <br/>
+* [Kubernetes core concepts for Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/concepts-clusters-workloads) <br/>
+* [Optimize compute costs on Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/training/modules/aks-optimize-compute-costs/)<br/>
 * [Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/)<br/>
 * [Deploy an Azure Kubernetes Service (AKS) cluster](https://learn.microsoft.com/en-us/azure/aks/tutorial-kubernetes-deploy-cluster?tabs=azure-cli)<br/>
-* [Prepare an application for Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/tutorial-kubernetes-prepare-app?source=recommendations)<br/>
-* [Create an ingress controller in Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/ingress-basic?tabs=azure-cli)<br/>
-* [Quickstart: Develop on Azure Kubernetes Service (AKS) with Helm](https://learn.microsoft.com/en-us/azure/aks/quickstart-helm?tabs=azure-cli)<br/>
-* [Install existing applications with Helm in Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/kubernetes-helm?source=recommendations)<br/>
-* [Kubernetes core concepts for Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/concepts-clusters-workloads) <br/>
-* [Application Gateway Ingress Controller for Azure Kubernetes Service](https://azure.microsoft.com/en-us/blog/application-gateway-ingress-controller-for-azure-kubernetes-service/)<br/>
 * [What is Application Gateway Ingress Controller?](https://learn.microsoft.com/en-us/azure/application-gateway/ingress-controller-overview)<br/>
 * [Is ingress-nginx really a load balancer or not?](https://learn.microsoft.com/en-us/answers/questions/295210/is-ingress-nginx-is-really-a-load-balancer-or-not.html)<br/>
 * [Network concepts for applications in Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/concepts-network#ingress-controllers)<br/>
