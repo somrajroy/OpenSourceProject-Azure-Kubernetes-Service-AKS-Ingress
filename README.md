@@ -1,4 +1,4 @@
-### Demo- Azure Kubernetes Service(AKS) & Ingress <br/>
+### Demo- Azure Kubernetes Service(AKS) & Ingress  <br/>
 <ins> Deploying applications in MS Azure AKS using Ingress </ins> ([NGINX Ingress Controller](https://github.com/kubernetes/ingress-nginx)) <br/>
 * Microsoft Azure Kubernetes Service (AKS) is a fully managed container orchestration service. It reduces the complexity of container deployment and management and provides automation.<br/>
 * Azure automatically creates and configures a Kubernetes control plane for each cluster. In addition, MS handles all Kubernetes upgrades and new version updates within AKS.<br/>
