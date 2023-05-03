@@ -7,7 +7,7 @@
 * Azure AKS Architecture : <br/>
   A Kubernetes cluster is divided into two components: <br/>
     * Control plane: provides the core Kubernetes services and orchestration of application workloads. This is managed by Azure<br/>
-    * Nodes: run client application workloads.<br/>
+    * Nodes: run client ]application workloads on Kubernetes](https://kubernetes.io/docs/concepts/workloads/).<br/>
   ![image](https://user-images.githubusercontent.com/92582005/202123073-39cee4cb-e91e-4945-98ae-a6706cffa5cc.png) <br/>
 * Ingress is a Kubernetes API object that maps an application to a stable, externally addressable HTTP or HTTPS URL. It can route traffic to multiple services<br/>
   ![image](https://user-images.githubusercontent.com/92582005/202119583-b6b598ed-8d66-44b7-9ad0-cad0c3cefcf5.png) <br/>
